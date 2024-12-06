@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.xysMg9OjlkpVESOrfppu4AHaEK%26pid%3DApi&f=1&ipt=705a054d939bfa978eccf26ab075ffa92dad2b50f6bef5cc73697936f8caf2a3&ipo=images);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: antiquewhite;
+    background-color: darkgray;
+}
+
+.ri-menu-line{
+    display: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 87px;
+}
+
+nav{
+    display: flex;
+    gap: 33px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 87px;
+}
+
+#artist{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.oACFpvb9AzzsneL_sLrRJgHaEK%26pid%3DApi&f=1&ipt=d404fe04d9d4e7ab7361c72685bfffa6fe44eba46670a256cb17f08a03d64651&ipo=images);
+    background-position: center;
+    height: 175px;
+    text-align: center;
+    padding-top: 75px;
+}
+
+#right-content{
+    text-align: right;
+}
+
+#right-content h1{
+    font-size: 75px;
+    padding-bottom: 225px;
+    padding-left: 257px;
+    line-height: 1;
+}
+
+#right-content p{
+    padding-left: 425px;
+}
